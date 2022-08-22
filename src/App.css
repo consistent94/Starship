@@ -20,3 +20,10 @@
   border-radius: 5%;
   color: white;
 }
+
+.ships {
+  background-color: white;
+  color: black;
+  width: 200px;
+  height: 100px;
+}
