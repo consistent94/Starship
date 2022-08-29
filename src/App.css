@@ -23,7 +23,7 @@
 
 .ships {
   background-color: white;
-  color: black;
+  color: rgb(128, 46, 46);
   width: 200px;
   height: 100px;
 }
