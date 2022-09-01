@@ -1,12 +1,12 @@
 import React from "react"
 
-function Ship() {
+function Ship(props) {
     return (
         <div className="ship">
-            <p>name</p>
-            <p>model</p>
-            <p>class</p>
-            <p>crew</p>
+            <p>{props.name}</p>
+            <p>{props.model}</p>
+            <p>{props.class}</p>
+            <p>{props.crew}</p>
         </div>
     )
 }

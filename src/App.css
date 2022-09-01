@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: row;
 }
 
 .App-header {
@@ -19,6 +21,7 @@
   margin: 5% 10%;
   border-radius: 5%;
   color: white;
+  font-size: 0.75em;
 }
 
 .ships {
@@ -26,4 +29,14 @@
   color: rgb(128, 46, 46);
   width: 200px;
   height: 100px;
+}
+
+.master {
+  display: flex;
+  flex-direction: row;
+}
+
+.display-ships {
+  display: flex;
+  flex-direction: column;
 }
