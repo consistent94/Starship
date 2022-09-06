@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Ship from './Ship'
 
-function Search() {
+function Search(props) {
 
     const [searchShips, setSearchShips] = useState([])
     const [showDropdown, setShowDropdown] = useState(false)
@@ -17,7 +17,7 @@ function Search() {
         } else {
           setShowDropdown(false)
         }
-
+        props.setSearchShips()
 
         setSearchShips(data.results);
         
