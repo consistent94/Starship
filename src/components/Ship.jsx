@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react'
 
 function Ship(props) {
     return (
@@ -11,4 +11,4 @@ function Ship(props) {
     )
 }
 
-export default Ship;
+export default Ship
